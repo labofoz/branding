@@ -1,0 +1,117 @@
+/* Base Styles */
+.labofoz-tensormonkey-fur {
+  fill: #252832;
+}
+.labofoz-tensormonkey-skin {
+  fill: #fff;
+}
+
+/* Animated */
+.labofoz-tensormonkey-animated {
+  position: absolute;
+}
+.labofoz-tensormonkey-animated:nth-child(1) {
+  transform: translateZ(-30px);
+  animation: float 3s ease-in-out infinite -0.2s;
+}
+.labofoz-tensormonkey-animated:nth-child(2) {
+  transform: translateZ(-20px);
+  animation: float 3s ease-in-out infinite -0.4s;
+}
+.labofoz-tensormonkey-animated:nth-child(3) {
+  transform: translateZ(-10px);
+  animation: float 3s ease-in-out infinite -0.6s;
+}
+.labofoz-tensormonkey-animated:nth-child(4) {
+  transform: translateZ(0px);
+  animation: float 3s ease-in-out infinite -0.8s;
+}
+.labofoz-tensormonkey-animated:nth-child(5) {
+  transform: translateZ(10px);
+  animation: float 3s ease-in-out infinite -1s;
+}
+.labofoz-tensormonkey-animated:nth-child(6) {
+  transform: translateZ(20px);
+  animation: float 3s ease-in-out infinite -1.2s;
+}
+.labofoz-tensormonkey-animated:nth-child(7) {
+  transform: translateZ(30px);
+  animation: float 3s ease-in-out infinite -1.4s;
+}
+.labofoz-tensormonkey-animated:nth-child(8) {
+  transform: translateZ(40px);
+  animation: float 3s ease-in-out infinite -1.6s;
+}
+.labofoz-tensormonkey-animated:nth-child(9) {
+  transform: translateZ(50px);
+  animation: float 3s ease-in-out infinite -1.8s;
+}
+.labofoz-tensormonkey-animated:nth-child(10) {
+  transform: translateZ(60px);
+  animation: float 3s ease-in-out infinite -2s;
+}
+.labofoz-tensormonkey-animated:nth-child(11) {
+  transform: translateZ(70px);
+  animation: float 3s ease-in-out infinite -2.2s;
+}
+.labofoz-tensormonkey-animated:nth-child(12) {
+  transform: translateZ(80px);
+  animation: float 3s ease-in-out infinite -2.4s;
+}
+
+.labofoz-tensormonkey-animated:nth-child(1) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(1) .labofoz-tensormonkey-fur {
+  fill: #272381;
+}
+.labofoz-tensormonkey-animated:nth-child(2) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(2) .labofoz-tensormonkey-fur {
+  fill: #582e82;
+}
+.labofoz-tensormonkey-animated:nth-child(3) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(3) .labofoz-tensormonkey-fur {
+  fill: #842a82;
+}
+.labofoz-tensormonkey-animated:nth-child(4) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(4) .labofoz-tensormonkey-fur {
+  fill: #a82085;
+}
+.labofoz-tensormonkey-animated:nth-child(5) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(5) .labofoz-tensormonkey-fur {
+  fill: #d60985;
+}
+.labofoz-tensormonkey-animated:nth-child(6) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(6) .labofoz-tensormonkey-fur {
+  fill: #f41b2c;
+}
+.labofoz-tensormonkey-animated:nth-child(7) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(7) .labofoz-tensormonkey-fur {
+  fill: #fc5319;
+}
+.labofoz-tensormonkey-animated:nth-child(8) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(8) .labofoz-tensormonkey-fur {
+  fill: #f57c21;
+}
+.labofoz-tensormonkey-animated:nth-child(9) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(9) .labofoz-tensormonkey-fur {
+  fill: #fca118;
+}
+.labofoz-tensormonkey-animated:nth-child(10) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(10) .labofoz-tensormonkey-fur {
+  fill: #fca217;
+}
+.labofoz-tensormonkey-animated:nth-child(11) .labofoz-tensormonkey-skin,
+.labofoz-tensormonkey-animated:nth-child(11) .labofoz-tensormonkey-fur {
+  fill: #fec806;
+}
+
+@keyframes float {
+  0% {
+    top: -10px;
+  }
+  50% {
+    top: 30px;
+  }
+  100% {
+    top: -10px;
+  }
+}
